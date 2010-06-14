@@ -84,7 +84,7 @@
       (secondary-selection ((t (:background ,plum3))))
       (shadow ((t (:foreground ,aluminium3))))
       (tool-bar ((t (nil))))
-      (tooltip ((t (:foreground ,aluminium6 :background ,aluminium2))))
+      (tooltip ((t (:family ,(face-attribute 'default :family) :foreground ,aluminium2 :background ,aluminium6))))
       (trailing-whitespace ((t (nil))))
       (underline ((t (:underline t))))
       (variable-pitch ((t (nil))))
