@@ -43,7 +43,7 @@
        (border-color     . ,aluminium4)
        (cursor-color     . ,butter1))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;; default faces ;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;; default faces ;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (bold ((t (:weight bold))))
       (bold-italic ((t (:inherit bold :inherit italic))))
@@ -90,18 +90,18 @@
       (variable-pitch ((t (nil))))
       (vertical-border ((t (:inherit border))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;; comint mode ;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;; comint mode ;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (comint-highlight-prompt ((t (:foreground ,chameleon2))))
       (comint-highlight-input ((t (nil))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;; cperl mode ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;;; cperl mode ;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (cperl-array-face ((t (:foreground ,chocolate1 :weight bold))))
       (cperl-hash-face ((t (:foreground ,orange3 :weight bold))))
       (cperl-nonoverridable-face ((t (:foreground ,chameleon1 :weight bold))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;;; font lock ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;;; font lock ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (font-lock-builtin-face ((t (:foreground ,skyblue1))))
       (font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
@@ -119,7 +119,7 @@
       (font-lock-variable-name-face ((t (:inherit default :weight bold))))
       (font-lock-warning-face ((t (:foreground ,orange2 :weight bold))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;;; ido-mode ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;; ido-mode ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (ido-first-match ((t (:weight bold))))
       (ido-only-match ((t (:foreground ,chameleon1 :weight bold))))
@@ -127,7 +127,7 @@
       (ido-incomplete-regexp ((t (:inherit font-lock-warning-face))))
       (ido-indicator ((t (:foreground ,scarlet1 :weight bold))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;;; info mode ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;;; info mode ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (info-header-node ((t (:weight bold))))
       (info-header-xref ((t (nil))))
@@ -141,7 +141,7 @@
       (info-xref ((t (:foreground ,skyblue1))))
       (info-xref-visited ((t (:foreground ,plum1))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;;; speedbar ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;; speedbar ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (speedbar-button-face ((t (:foreground ,aluminium2 :weight bold))))
       (speedbar-directory-face ((t (:foreground ,chameleon1 :weight bold))))
@@ -151,12 +151,12 @@
       (speedbar-separator-face ((t (:inherit mode-line))))
       (speedbar-tag-face ((t (nil))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;; makefile mode ;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;; makefile mode ;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (makefile-makepp-perl ((t (:foreground ,skyblue1 :background ,aluminium6))))
       (makefile-space ((t (:background ,aluminium5))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;;;; auctex ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;;; auctex ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (font-latex-bold-face ((t (:inherit bold))))
       (font-latex-doctex-documentation-face ((t (:background ,aluminium5))))
@@ -205,7 +205,7 @@
       ;; (widget-inactive ((t (nil))))
       (widget-single-line-field ((t (:background ,aluminium5))))
 
-      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; misc ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; misc ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (show-paren-match-face ((t (:foreground ,aluminium6 :background ,chameleon2))))
       (show-paren-mismatch-face ((t (:foreground ,aluminium6 :background ,plum1))))
