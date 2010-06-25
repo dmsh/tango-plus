@@ -205,6 +205,24 @@
       ;; (widget-inactive ((t (nil))))
       (widget-single-line-field ((t (:background ,aluminium5))))
 
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;;; rcirc ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+      (rcirc-bright-nick ((t (:foreground ,butter1))))
+      ;; (rcirc-dim-nick ((t (nil))))
+      ;; (rcirc-keyword ((t (nil))))
+      (rcirc-my-nick ((t (:foreground ,chameleon2))))
+      (rcirc-nick-in-message ((t (:inherit rcirc-my-nick))))
+      (rcirc-nick-in-message-full-line ((t (nil))))
+      (rcirc-other-nick ((t (:foreground ,skyblue1))))
+      (rcirc-prompt ((t (:inherit comint-highlight-prompt))))
+      (rcirc-server ((t (:inherit rcirc-timestamp))))
+      (rcirc-server-prefix ((t (:foreground ,aluminium4))))
+      (rcirc-timestamp ((t (:foreground ,aluminium4))))
+      ;; (rcirc-track-keyword ((t (nil))))
+      (rcirc-track-nick ((t (:inherit rcirc-track-keyword))))
+      (rcirc-url ((t (:inherit link))))
+
+
       ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; misc ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (show-paren-match-face ((t (:foreground ,aluminium6 :background ,chameleon2))))
