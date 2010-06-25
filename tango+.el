@@ -222,6 +222,27 @@
       (rcirc-track-nick ((t (:inherit rcirc-track-keyword))))
       (rcirc-url ((t (:inherit link))))
 
+      ;;;;;;;;;;;;;;;;;;;;;;;;;;;; Magit ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+      ;; (magit-branch ((t (nil))))
+      (magit-diff-add ((t (:foreground ,chameleon2))))
+      (magit-diff-del ((t (:foreground ,scarlet1))))
+      ;; (magit-diff-file-header ((t (nil))))
+      (magit-diff-hunk-header ((t (:underline t))))
+      (magit-diff-none ((t (:inherit font-lock-comment-face))))
+      ;; (magit-header ((t (nil))))
+      (magit-item-highlight ((t (nil))))
+      ;; (magit-item-mark ((t (nil))))
+      (magit-log-graph ((t (:foreground ,aluminium4))))
+      (magit-log-head-label-bisect-bad ((t (:box t :foreground ,scarlet1))))
+      (magit-log-head-label-bisect-good ((t (:box t :foreground ,chameleon2))))
+      (magit-log-head-label-local ((t (:box t :foreground ,butter1))))
+      (magit-log-head-label-remote ((t (:box t :foreground ,butter3))))
+      (magit-log-head-label-tags ((t (:box t :foreground ,orange2))))
+      ;; (magit-log-message ((t (nil))))
+      (magit-log-sha1 ((t (:foreground ,aluminium4))))
+      (magit-log-tag-label ((t (:inherit magit-log-head-label-tags))))
+      ;; (magit-section-title ((t (nil))))
 
       ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; misc ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
