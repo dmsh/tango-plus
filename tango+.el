@@ -92,7 +92,7 @@
 
       ;;;;;;;;;;;;;;;;;;;;;;;;; comint mode ;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-      (comint-highlight-prompt ((t (:foreground ,chameleon2))))
+      (comint-highlight-prompt ((t (:foreground ,skyblue1))))
       (comint-highlight-input ((t (nil))))
 
       ;;;;;;;;;;;;;;;;;;;;;;;;;; cperl mode ;;;;;;;;;;;;;;;;;;;;;;;;;;
