@@ -122,7 +122,7 @@
       ;;;;;;;;;;;;;;;;;;;;;;;;;;; ido-mode ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (ido-first-match ((t (:weight bold))))
-      (ido-only-match ((t (:foreground ,chameleon1 :weight bold))))
+      (ido-only-match ((t (:foreground ,chameleon2 :weight bold))))
       (ido-subdir ((t (:foreground ,plum1))))
       (ido-incomplete-regexp ((t (:inherit font-lock-warning-face))))
       (ido-indicator ((t (:foreground ,scarlet1 :weight bold))))
