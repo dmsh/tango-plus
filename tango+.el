@@ -302,6 +302,15 @@
       ;; (wl-message-header-narrowing-face                 ((t (nil))))
       ;; (wl-summary-persistent-mark-face                  ((t (nil))))
 
+      ;;;;;;;;;;;;;;;;;;;;;;;;; tuareg mode ;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+      (tuareg-font-lock-error-face ((t (:inherit font-lock-warning-face))))
+      (tuareg-font-lock-governing-face ((t (:inherit font-lock-keyword-face))))
+      ;; (tuareg-font-lock-interactive-error-face  ((t (nil))))
+      ;; (tuareg-font-lock-interactive-output-face ((t (nil))))
+      ;; (tuareg-font-lock-multistage-face         ((t (nil))))
+      (tuareg-font-lock-operator-face ((t (:foreground ,chocolate1))))
+
       ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; misc ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (show-paren-match-face ((t (:foreground ,aluminium6 :background ,chameleon2))))
