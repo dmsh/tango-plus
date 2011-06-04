@@ -341,6 +341,19 @@
       ;; (wl-message-header-narrowing-face                 ((t (nil))))
       ;; (wl-summary-persistent-mark-face                  ((t (nil))))
 
+      ;;;;;;;;;;;;;;;;;;;;;;; whitespace mode ;;;;;;;;;;;;;;;;;;;;;;;;
+
+      (whitespace-empty ((t (:background ,aluminium4))))
+      ;; (whitespace-hspace                                ((t (nil))))
+      ;; (whitespace-indentation                           ((t (nil))))
+      (whitespace-line ((t (:inherit whitespace-empty))))
+      ;; (whitespace-newline                               ((t (nil))))
+      ;; (whitespace-space                                 ((t (nil))))
+      ;; (whitespace-space-after-tab                       ((t (nil))))
+      ;; (whitespace-space-before-tab                      ((t (nil))))
+      ;; (whitespace-tab                                   ((t (nil))))
+      ;; (whitespace-trailing                              ((t (nil))))
+
       ;;;;;;;;;;;;;;;;;;;;;;;;; tuareg mode ;;;;;;;;;;;;;;;;;;;;;;;;;;
 
       (tuareg-font-lock-error-face ((t (:inherit font-lock-warning-face))))
@@ -358,4 +371,3 @@
       ))))
 
 (provide 'tango+)
-
