@@ -353,8 +353,8 @@
 
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;; misc ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-  `(show-paren-match-face ((t (:foreground ,aluminium6 :background ,chameleon2))))
-  `(show-paren-mismatch-face ((t (:foreground ,aluminium6 :background ,plum1))))
+  `(show-paren-match ((t (:foreground ,aluminium6 :background ,chameleon2))))
+  `(show-paren-mismatch ((t (:foreground ,aluminium6 :background ,scarlet1))))
 
   ))
 
